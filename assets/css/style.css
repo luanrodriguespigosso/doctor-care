@@ -5,6 +5,7 @@
 
 :root {
   --primary-color: hsl(170, 100%, 26%);
+  --background-header: hsl(148, 23%, 89%);
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
   --white: hsl(0, 0%, 100%);
@@ -23,6 +24,7 @@ header {
   margin-right: auto;
   margin-left: auto;
   margin-top: 4.1rem;
+  background: var(--background-header);
 }
 
 h4 {
